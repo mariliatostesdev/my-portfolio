@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marília Tostes - Desenvolvedora Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">MT</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖,</p>
+          <h1>Sou a <span>Marília Tostes</span></h1>
+          <h2>Desenvolvedora Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/marilia-tostes/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5567981443147" class="outer-shadow" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/mariliatostesdev" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/marilia-perfil-3.png" alt="foto do perfil da Marília" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/marilia-perfil-2.jpg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Marília Tostes, e sou uma desenvolvedora frontend em
+              formação!</strong>
+            <br><br>Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+            Estou sempre me desafiando coim novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+          </p>
+
+          <p>
+            Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💜
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="https://drive.google.com/drive/folders/1t74fntiYA85JUO5zeAyBmD-csQlZ5IQt?usp=sharing" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">
+          <a href="https://github.com">
+            <img src="./src/imagens/projeto1.png" alt="Nome do projeto" />
+            <h3>Landing Page com Grid e Flex</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto com HTML e CSS</p>
+              <p class="githubpages"><a href="https://mariliatostesdev.github.io/projeto-LP-com-grid-e-flex/" target="_blank">🔗 Ver no GitHub Pages</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="projeto">
+        <a href="https://github.com">
+          <img src="./src/imagens/projeto5.png" alt="Nome do projeto" />
+          <h3>Profile Card</h3>
+          <div class="informacoes-projeto">
+            <p>Projeto com HTML e CSS</p>
+            <p class="githubpages"><a href="https://mariliatostesdev.github.io/my-profile-card/" target="_blank">🔗 Ver no GitHub Pages</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="projeto">
+      <a href="https://github.com">
+        <img src="./src/imagens/projeto2.png" alt="Nome do projeto" />
+        <h3>Página Inicial com Cadastro</h3>
+        <div class="informacoes-projeto">
+          <p>Projeto com HTML e CSS</p>
+          <p class="githubpages"><a href="https://mariliatostesdev.github.io/huddle-frontend-mentor/" target="_blank">🔗 Ver no GitHub Pages</a></p>
+        </div>
+    </div>
+
+    <div class="projeto">
+      <a href="https://github.com">
+        <img src="./src/imagens/projeto3.png" alt="Nome do projeto" />
+        <h3>Página de Delivery de Taco</h3>
+        <div class="informacoes-projeto">
+          <p>Projeto com HTML e CSS</p>
+          <p class="githubpages"><a href="https://mariliatostesdev.github.io/taco-delivery-website/" target="_blank">🔗 Ver no GitHub Pages</p>
+      </a>
+    </div>
+    </div>
+
+    <div class="projeto">
+      <a href="https://github.com">
+        <img src="./src/imagens/projeto4.png" alt="Nome do projeto" />
+        <h3>Landing Page de Start Up</h3>
+        <div class="informacoes-projeto">
+          <p>Projeto com HTML e CSS</p>
+          <p class="githubpages"><a href="https://mariliatostesdev.github.io/broadtech-website/" target="_blank">🔗 Ver no GitHub Pages</p>
+      </a>
+    </div>
+    </div>
+
+    <div class="projeto">
+      <a href="https://github.com">
+        <img src="./src/imagens/projeto6.png" alt="Nome do projeto" />
+        <h3>Preview Card de NFT</h3>
+        <div class="informacoes-projeto">
+          <p>Projeto com HTML e CSS</p>
+          <p class="githubpages"><a href="https://mariliatostesdev.github.io/nft-preview-card/" target="_blank">🔗 Ver no GitHub Pages</p>
+      </a>
+    </div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/marilia-tostes/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/5567981443147" class="outer-shadow" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/mariliatostesdev" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
